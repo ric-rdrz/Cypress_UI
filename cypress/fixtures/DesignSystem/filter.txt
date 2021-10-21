@@ -1,0 +1,44 @@
+<Filter id="filter_id">
+  <Filter.Section id="section_1">
+    <Text.Subtitle>Filtros(2)</Text.Subtitle>
+    <Action icon="Close" iconPosition="left">
+      Limpiar filtros
+    </Action>
+  </Filter.Section>
+  <Filter.Divider />
+  <Filter.Section id="section_2">
+    <Text.Subtitle>Orden ascendente</Text.Subtitle>
+    <IconButton type="SortAscending" size="sm" />
+  </Filter.Section>
+  <Filter.Divider />
+  <Filter.Section id="section_3">
+    <Search placeholder="Buscar..." />
+  </Filter.Section>
+  <Filter.Divider />
+  <Filter.Divider />
+  <Filter.ContentSection title="Primer categoria(1)" id="content_1">
+    <Checkbox id="check1" label="Option 1" />
+    <Checkbox id="check2" label="Option 2" />
+    <Checkbox id="check3" label="Option 3" />
+    <Checkbox id="check4" label="Option 4" />
+    <Checkbox id="check5" label="Option 5" />
+    <Checkbox id="check6" label="Option 6" />
+    <Checkbox id="check7" label="Option 7" />
+  </Filter.ContentSection>
+  <Filter.Divider />
+  <Filter.ContentSection title="Primer categoria(0)" id="cat_2" collapsed>
+    <Checkbox id="check1-collapsed" label="Option 1" />
+
+  </Filter.ContentSection>
+  <Filter.Footer id="footer">
+    <Action icon="Close" iconPosition="left" hoverColor="red_error">
+      Cancelar
+    </Action>
+    <Action
+      icon="Checked"
+      iconPosition="left"
+      color="grey_400"
+      hoverColor="purple">Apply
+    </Action>
+  </Filter.Footer>
+</Filter>

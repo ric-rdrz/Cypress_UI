@@ -1,0 +1,6 @@
+<Spinner size="xs" id="0"/>
+<Spinner size="sm" id="1" alternative/>
+<Spinner id="2" overrideStyles={{ spinner: 'background-color:green'}}/>
+<Spinner size="lg" id="3" alternative/>
+<Spinner size="xl" id="4" alternative/>
+<Spinner size="xxl" id="5"/>

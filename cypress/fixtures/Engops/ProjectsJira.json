@@ -1,0 +1,26 @@
+[
+  {
+    "project": "PT",
+    "projectName": "Platform and Tools"
+  },
+  {
+    "project": "SRE",
+    "projectName": "SRE and Release"
+  },
+  {
+    "project": "PAY2",
+    "projectName": "Payroll 2.0"
+  },
+  {
+    "project": "PAYROLL",
+    "projectName": "Payroll 1.0"
+  },
+  {
+    "project": "EVE",
+    "projectName": "Events 2.0"
+  },
+  {
+    "project": "SUPPORT",
+    "projectName": "Desarrollo Customer Support"
+  }
+]

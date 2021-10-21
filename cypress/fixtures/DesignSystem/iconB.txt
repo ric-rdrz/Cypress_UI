@@ -1,0 +1,7 @@
+<FlexWrapper>
+  <IconButton type="Edit" id="iconB_1"/>
+  <IconButton type="Close" id="iconB_2"/>
+  <IconButton type="Trash" color="red" size="sm"  id="iconB_3"/>
+  <IconButton type="Send" color="aqua" size="lg" id="iconB_4"/>
+  <IconButton type="Add" size="xl" id="iconB_5"/>
+</FlexWrapper>

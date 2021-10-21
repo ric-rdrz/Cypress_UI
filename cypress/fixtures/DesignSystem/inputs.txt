@@ -1,0 +1,57 @@
+<FlexWrapper>
+  <Input
+    name="name"
+    label="Caja de Texto"
+    id="text-box"
+  />
+  
+    <Input
+    name="name"
+    label="Nombre completo"
+    required
+    id="username-normal"
+    placeholder="Escribe tu nombre"
+    disabled
+    required
+  />
+  
+  <Input
+    name="name"
+    label="Nombre empleado"
+    id="username-help"
+    placeholder="Apellido Paterno"
+    status="help"
+    statusMessage="Help message"
+required
+/>
+  <Input
+    name="name"
+    label="Apellido 1"
+    required
+    id="username-success"
+    placeholder="Apellido Materno"
+    status="success"
+    statusMessage="Validacion correcta"
+    required
+  />
+  <Input
+    name="name"
+    label="Nombre/Nombres"
+    id="username-warning"
+    placeholder="Nombres"
+    status="warning"
+    statusMessage="Te falto un campo no requerido"
+    required
+  />
+  <Input
+    name="name"
+    label="Sexo:"
+    required
+    id="username-error"
+    placeholder="Sexo"
+    status="error"
+    statusMessage="Error en la captura"
+required
+  />
+  
+</FlexWrapper>

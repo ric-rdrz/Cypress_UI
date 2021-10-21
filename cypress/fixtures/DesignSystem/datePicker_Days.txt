@@ -1,0 +1,9 @@
+<InputDatePicker
+  label="Date picker:"
+  id="sample-date-en"
+  name="date"
+  placeholder="DD / MM / AAAA"
+  canChangeMonth={false}
+  disabledDays={[new Date(2021,7,16),{after: new Date(2021, 7,16)}]}
+  selectedDays={new Date(2021,7,2)}
+  />
