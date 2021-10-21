@@ -1,0 +1,17 @@
+<FlexWrapper>
+  <Input
+    name="name"
+    label="Nombre completo"
+    id="username-or"
+    placeholder="John Doe"
+        status="success"
+    statusMessage="Validacion correcta"
+overrideStyles={{ 
+          inputContainer: 'background-color: red',
+          input: 'background-color: blue',
+          labelContainer: 'background-color: green',
+          status: 'background-color: yellow',
+          icon: 'background-color: brown'
+}}
+  />
+</FlexWrapper>

@@ -1,0 +1,28 @@
+<FlexWrapper justify="space-around">
+  <Action onClick={() => alert('clicked')} overrideStyles={{
+          action: 'background-color: red',
+        }}>
+  Action without icon</Action>
+    <Action overrideStyles={{
+          action: 'color: magenta',
+        }}>
+  Action without icon</Action>
+  <Action icon="DownloadTxt" iconPosition="left" overrideStyles={{
+          text: 'background-color: blue'
+        }}>
+    Icon left
+  </Action>
+  <Action icon="Trash" iconPosition="right" overrideStyles={{
+          icon: 'background-color: green',
+        }}>
+    Icon right
+  </Action>
+  <Action icon="Trash" iconPosition="right" as="a" href="/Action"
+  overrideStyles={{
+          action: 'background-color: red',
+          text: 'background-color: blue',
+          icon: 'background-color: green',
+        }}>
+    renders as anchor
+  </Action>
+</FlexWrapper>

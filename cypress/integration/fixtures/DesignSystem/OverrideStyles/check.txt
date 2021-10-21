@@ -1,0 +1,6 @@
+<React.Fragment>
+  <div>
+    <Checkbox label="Unchecked" required 
+    overrideStyles={{ checkbox: { backgroundColor: 'red'}, labelContainer: { backgroundColor: 'yellow'}, text:{ color: 'magenta'}, isRequired:{ color: 'blue'} }} />
+  </div>
+</React.Fragment>

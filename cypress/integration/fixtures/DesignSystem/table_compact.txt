@@ -1,0 +1,44 @@
+<Table owLg columnCount="4">
+  <Table.Header id="Table_header">
+    <Table.HeaderCell>
+      <Text.H6>Column Name</Text.H6>
+    </Table.HeaderCell>
+    <Table.HeaderCell>
+      <Text.H6 ellipsisOverflow>Colum Area</Text.H6>
+      <Icon type="SortDefault" marginLeft="xsm" />
+    </Table.HeaderCell>
+    <Table.HeaderCell>
+      <Text.H6>Column Amount</Text.H6>
+    </Table.HeaderCell>
+    <Table.HeaderCell>              <CellCentered>
+      <Text.H6 ellipsisOverflow>Column Status</Text.H6>
+                    </CellCentered>
+    </Table.HeaderCell>
+  </Table.Header>
+
+  <Table.Body id="Table_body">
+    <Table.Row>
+      <Table.Cell id="Table_Cel_1">Fernando Gonzalez</Table.Cell>
+      <Table.Cell id="Table_Cel_2">Finanzas</Table.Cell>
+      <Table.Cell id="Table_Cel_3">$3,000.00</Table.Cell>
+      <Table.Cell id="Table_Cel_4">
+              <CellCentered>
+        <Icon type="StatusOk" size="lg" />
+                </CellCentered>
+      </Table.Cell>
+    </Table.Row>
+
+    <Table.Row>
+      <Table.Cell>Isabel Romero</Table.Cell>
+      <Table.Cell>Contabilidad</Table.Cell>
+      <Table.Cell>$82,000.00</Table.Cell>
+      <Table.Cell>
+        <CellCentered>
+          <Icon type="StatusError" size="lg" />
+        </CellCentered>
+      </Table.Cell>
+    </Table.Row>
+    
+    
+  </Table.Body>
+</Table>

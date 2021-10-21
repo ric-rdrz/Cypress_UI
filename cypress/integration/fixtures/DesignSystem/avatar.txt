@@ -1,0 +1,41 @@
+<Avatar gender="Girl" variant={6} size="xs" id="avatar_1"/>
+<Avatar gender="Girl" variant={5} size="xs" id="avatar_2"/>
+<Avatar gender="Girl" variant={4} size="md" id="avatar_3"/>
+<Avatar gender="Girl" variant={3} size="lg" id="avatar_4"/>
+<Avatar gender="Girl" variant={2} size="xl" id="avatar_5"/>
+<Avatar gender="Girl" variant={1} size="xxl" id="avatar_6"/>
+<Avatar gender="Boy" variant={9} size="xs" id="avatar_7"/>
+<Avatar gender="Boy" variant={8} size="xs" id="avatar_8"/>
+<Avatar gender="Boy" variant={7} size="md" id="avatar_9"/>
+<Avatar gender="Boy" variant={6} size="lg" id="avatar_10"/>
+<Avatar gender="Boy" variant={5} size="xl" id="avatar_11"/>
+<Avatar gender="Boy" variant={4} size="xxl" id="avatar_12"/>
+<Avatar gender="Boy" variant={3} size="xs" id="avatar_13"/>
+<Avatar gender="Boy" variant={2} size="xs" id="avatar_14"/>
+<Avatar gender="Boy" variant={1} size="md" id="avatar_15"/>
+
+<Avatar/>
+<Avatar gender="Boy"/>
+<Avatar size="xl" />
+<Avatar variant={4} />
+<Avatar size="" />
+<Avatar variant={0} />
+
+<Avatar gender="Girl" variant={0} size="" />
+<Avatar gender="Girl" variant={1} size="xs" />
+<Avatar gender="Girl" variant={2} size="xs" />
+<Avatar gender="Girl" variant={3} size="md" />
+<Avatar gender="Girl" variant={4} size="lg" />
+<Avatar gender="Girl" variant={5} size="xl" />
+<Avatar gender="Girl" variant={6} size="xxl" />
+
+<Avatar gender="Boy" variant={0} size="xs" />
+<Avatar gender="Boy" variant={1} size="xs" />
+<Avatar gender="Boy" variant={2} size="md" />
+<Avatar gender="Boy" variant={3} size="lg" />
+<Avatar gender="Boy" variant={4} size="xl" />
+<Avatar gender="Boy" variant={5} size="xxl" />
+<Avatar gender="Boy" variant={6} size="xs" />
+<Avatar gender="Boy" variant={7} size="xs" />
+<Avatar gender="Boy" variant={8} size="md" />
+<Avatar gender="Boy" variant={9} size="lg" />

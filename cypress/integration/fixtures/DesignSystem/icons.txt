@@ -1,0 +1,94 @@
+<Icon type="AbsenceAlt" size="xxl" color="purple" marginLeft="sm" id="icon_1"/>
+<Icon type="Absence" size="xl" color="purple_light" marginRight="sm" id="icon_2"/>
+<Icon type="Add" size="lg" color="purple_dark" marginLeft="md" id="icon_3"/>
+<Icon type="AddEmployee" size="md" color="purple_clear" marginRight="md" id="icon_4"/>
+<Icon type="Address" size="sm" color="aqua" marginLeft="lg" id="icon_5"/>
+<Icon type="Archive" size="xs" color="aqua_light" marginRight="lg" id="icon_6"/>
+<Icon type="Arrow" size="xxl" color="blue" marginLeftt="xxsm" id="icon_7"/>
+<Icon type="ArrowLeft" size="xl" color="blue_light" marginRight="xxsm" id="icon_8"/>
+<Icon type="Balloon" size="lg" color="orange" marginLeftt="xsm" id="icon_9"/>
+<Icon type="Calculation" size="md" color="orange_light" marginRight="xsm" id="icon_10"/>
+<Icon type="Calendar" size="sm" color="pink" />
+<Icon type="Card" size="xs" color="pink_light" />
+<Icon type="ChangeArea" size="xl" color="red" />
+<Icon type="ChangeCompany" size="xl" color="red_light" />
+<Icon type="ChangePosition" size="xl" color="yellow" />
+<Icon type="ChangeSalary" color="yellow_light" />
+<Icon type="Chart" size="xl" color="white" />
+<Icon type="CheckIcon" size="xl" color="grey_100" />
+<Icon type="Checked" size="xl" color="grey_200" />
+<Icon type="CheckList" color="grey_300" />
+<Icon type="ChevronDown" size="xl" color="grey_400" />
+<Icon type="ChevronLeft" size="xl" color="grey_500" />
+<Icon type="ChevronRight" size="xl" color="purple" />
+<Icon type="ChevronUp" color="orange" />
+<Icon type="Clock" size="xl" color="purple" />
+<Icon type="Close" size="xl" color="orange" />
+<Icon type="Company" size="xl" color="purple" />
+<Icon type="Config" color="orange" />
+<Icon type="Home" size="xl" color="purple" />
+<Icon type="Document" size="xl" color="orange" />
+<Icon type="DocumentOk" size="xl" color="purple" />
+<Icon type="DocumentsWrong" color="orange" />
+<Icon type="Download" size="xl" color="purple" />
+<Icon type="DownloadPdf" size="xl" color="orange" />
+<Icon type="DownloadTxt" size="xl" color="purple" />
+<Icon type="DownloadXml" color="orange" />
+<Icon type="DownloadXls" size="xl" color="purple" />
+<Icon type="DownloadZip" size="xl" color="orange" />
+<Icon type="Duplicate" size="xl" color="purple" />
+<Icon type="Edit" color="orange" />
+<Icon type="Employee" size="xl" color="purple" />
+<Icon type="Enter" size="xl" color="orange" />
+<Icon type="Event" size="xl" color="purple" />
+<Icon type="Exclamation" color="orange" />
+<Icon type="ExclamationOutline" size="xl" color="purple" />
+<Icon type="Exit" size="xl" color="orange" />
+<Icon type="ExternalLink" size="xl" color="purple" />
+<Icon type="ExtraHours" color="orange" />
+<Icon type="Eye" size="xl" color="purple" />
+<Icon type="EyeHide" size="xl" color="orange" />
+<Icon type="Filter" size="xl" color="purple" />
+<Icon type="FilterAlt" color="orange" />
+<Icon type="FilterFill" size="xl" color="purple" />
+<Icon type="Heart" size="xl" color="orange" />
+<Icon type="Help" size="xl" color="purple" />
+<Icon type="HelpAlt" color="orange" />
+<Icon type="Hierarchy" size="xl" color="purple" />
+<Icon type="Id" size="xl" color="orange" />
+<Icon type="Illness" size="xl" color="purple" />
+<Icon type="InformationButton" color="orange" />
+<Icon type="Lock" size="xl" color="purple" />
+<Icon type="Mail" size="xl" color="purple" />
+<Icon type="Menu" size="xl" color="orange" />
+<Icon type="Message" size="xl" color="purple" />
+<Icon type="MessageAlt" color="orange" />
+<Icon type="Money" size="xl" color="purple" />
+<Icon type="MoneySign" size="xl" color="orange" />
+<Icon type="Move" size="xl" color="purple" />
+<Icon type="Notification" color="orange" />
+<Icon type="Performance" size="xl" color="orange" />
+<Icon type="PerformanceAlt" size="xl" color="purple" />
+<Icon type="Phone" color="orange" />
+<Icon type="Qr" size="xl" color="purple" />
+<Icon type="Relocation" size="xl" color="orange" />
+<Icon type="RemoveEmployee" size="xl" color="purple" />
+<Icon type="Reorder" color="orange" />
+<Icon type="ReorderAlt" size="xl" color="purple" />
+<Icon type="RubberStamp" size="xl" color="orange" />
+<Icon type="Search" size="xl" color="purple" />
+<Icon type="Send" color="orange" />
+<Icon type="ShareArrow" size="xl" color="purple" />
+<Icon type="SmallAccepted" size="xl" color="orange" />
+<Icon type="SmallError" size="xl" color="purple" />
+<Icon type="SmallWarning" color="orange" />
+<Icon type="SortAscending" size="xl" color="purple" />
+<Icon type="SortDefault" size="xl" color="orange" />
+<Icon type="SortDescending" size="xl" color="purple" />
+<Icon type="StatusError" color="orange" />
+<Icon type="StatusOk" size="xl" color="purple" />
+<Icon type="StatusWarning" size="xl" color="orange" />
+<Icon type="Trash" size="xl" color="purple" />
+<Icon type="Update" color="orange" />
+<Icon type="UploadCloud" size="xl" color="orange" />
+<Icon type="Vacations" size="xl" color="purple" />

@@ -1,0 +1,13 @@
+() => {
+  const [radioValue, setRadioValue] = React.useState('')
+  return (
+    <React.Fragment>
+      <FlexWrapper>
+        <Radio value="test1" label="Some text 1" name="test" checked={radioValue === 'test1'} onChange={e => setRadioValue(e.target.value)} required
+          overrideStyles={{ radio: { backgroundColor: 'red'}, labelContainer: { backgroundColor: 'yellow'}, text:{ color: 'blue'}, isRequired:{ backgroundColor: 'blue'}} } 
+        />
+      </FlexWrapper>
+      <p>Value: {radioValue}</p>
+    </React.Fragment>
+  )
+}

@@ -1,0 +1,30 @@
+() => {
+  const [isOpen, setIsOpen] = React.useState(false)
+  return (
+    <React.Fragment>
+      <Button label="show drawer" onClick={() => setIsOpen(true)} />
+      <Drawer isOpen={isOpen} onClose={() => setIsOpen(false)}  
+      overrideStyles={{ overlay: { backgroundColor: 'gray'},
+      drawer: { backgroundColor: 'red'} }}>
+        <Drawer.Header id="1" overrideStyles={{ header: { backgroundColor: 'blue'} }}>
+          <Drawer.HeaderInfo
+          overrideStyles={{ headerInfo: { backgroundColor: 'gray'} }}>
+            <Drawer.Title overrideStyles={{ text: { color: 'yellow'} }}>Title</Drawer.Title>
+            <Drawer.Subtitle overrideStyles={{ text: { color: 'pink'} }}>Subtitle</Drawer.Subtitle>
+          </Drawer.HeaderInfo>
+          <Drawer.HeaderActions overrideStyles={{ headerActions: { backgroundColor: 'pink'} }}>
+            <IconButton type="Edit" />
+            <IconButton type="Trash" color="red" />
+            <Drawer.IconSeparator overrideStyles={{ iconSeparator: { backgroundColor: 'orange'} }}/>
+            <IconButton onClick={() => setIsOpen(false)} type="Close" />
+          </Drawer.HeaderActions>
+        </Drawer.Header>
+        <Drawer.Content overrideStyles={{ content: { backgroundColor: 'brown'} }}>Content</Drawer.Content>
+        <Drawer.Footer overrideStyles={{ footer: { backgroundColor: 'magenta'} }}>
+          <Button label="cancelar" color="outline-dark" />
+          <Button label="aceptar" />
+        </Drawer.Footer>
+      </Drawer>
+    </React.Fragment>
+  )
+}

@@ -1,0 +1,14 @@
+() => {
+  const [counter, setCounter] = React.useState(0)
+  return (
+    <React.Fragment>
+
+    <Chip
+        label="An incredibly long proof text"
+        overrideStyles={{ chip: { backgroundColor: 'red' },text: { color: 'blue' },icon: { backgroundColor: 'orange' } }}
+        onClick={() => setCounter(counter => counter + 1)}
+    />
+    
+    </React.Fragment>
+  )
+}

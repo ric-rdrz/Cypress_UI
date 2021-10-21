@@ -1,0 +1,3 @@
+<FlexWrapper justify="space-around">
+    <Link overrideStyles={{ link: { backgroundColor: 'yellow'} }}>Simple link without icon</Link>
+</FlexWrapper>

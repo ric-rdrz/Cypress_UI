@@ -1,0 +1,23 @@
+() => {
+  const [selected, setSelected] = React.useState({})
+   const [counter, setCounter] = React.useState(0)
+   const [form, setForm] = React.useState({ name: '' })
+  return (
+    <React.Fragment>
+      <Select
+        id="employee"
+        label="Select one employee"
+        placeholder="Select an option"
+        hint="An informative text"
+        items={[
+          { label: 'David', value: 'david' },
+          { label: 'Felipe', value: 'felipe' },
+        ]}
+        onChange={option => setSelected({ user: option.value })}
+       onFocus={() => setCounter(counter => counter + 1)}
+       onBlur={()=>alert("Select Component")}
+      />
+      {JSON.stringify(selected)}
+    </React.Fragment>
+  )
+}

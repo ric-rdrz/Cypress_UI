@@ -1,0 +1,49 @@
+{
+  "name": "cypress_ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "TZ=America/Mexico_City $(npm bin)/cypress open",
+    "cy:run": "$(npm bin)/cypress run",
+    "cy:visual": "$(npm bin)/cypress run --spec './cypress/integration/Visual/**/*.spec.js' ",
+    "cy:visual_components_Chrome": "$(npm bin)/cypress run --browser chrome --spec './cypress/integration/Visual/**/*.spec.js'",
+    "cy:visual_components_Edge": "$(npm bin)/cypress run --browser edge --spec './cypress/integration/Visual/**/*.spec.js'",
+    "cy:visual_components_Firefox": "$(npm bin)/cypress run --browser firefox --spec './cypress/integration/Visual/**/*.spec.js'",
+    "cy:visual_responsive": "$(npm bin)/cypress run --browser chrome --spec './cypress/integration/Visual/**/*.spec.js'",
+    "cy:visual_sandbox": "$(npm bin)/cypress run --spec './cypress/integration/SandboxDS/**/*.spec.js'",
+    "cy:dataUtils_sandbox": "TZ=America/Mexico_City $(npm bin)/cypress run --spec './cypress/integration/SandboxDU/**/*.spec.js'",
+    "cy:percy_sb": "$(npm bin)/percy exec -- npm run cy:visual_sandbox",
+    "cy:percy_pg": "$(npm bin)/percy exec -- npm run cy:visual",
+    "cy:percy_pg_res": "$(npm bin)/percy exec -- npm run cy:visual_responsive",
+    "cy:engops": "$(npm bin)/cypress run --spec './cypress/integration/EngOps/**/*.spec.js'",
+    "lint": "eslint cypress --ext .ts --ext .tsx --ext .js --ext .jsx",
+    "lint:fix": "eslint cypress --fix --ext .ts --ext .tsx --ext .js --ext .jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ric-rdrz/Cypress_UI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ric-rdrz/Cypress_UI/issues"
+  },
+  "homepage": "https://github.com/ric-rdrz/Cypress_UI#readme",
+  "devDependencies": {
+    "cypress": "^8.6.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.1",
+    "dotenv": "^10.0.0",
+    "faker": "^5.5.3",
+    "file-system": "^2.2.2",
+    "mongodb": "^4.1.3",
+    "node-xlsx": "^0.17.2",
+    "username": "^6.0.0",
+    "xlsx": "^0.17.3"
+  }
+}

@@ -1,0 +1,15 @@
+<Visible xs>
+  <Placeholder>Should be visible on xs</Placeholder>
+</Visible>
+<Visible sm>
+  <Placeholder>Should be visible on sm</Placeholder>
+</Visible>
+<Visible md>
+  <Placeholder>Should be visible on md</Placeholder>
+</Visible>
+<Visible lg>
+  <Placeholder>Should be visible on lg</Placeholder>
+</Visible>
+<Visible xl>
+  <Placeholder>Should be visible on xl</Placeholder>
+</Visible>

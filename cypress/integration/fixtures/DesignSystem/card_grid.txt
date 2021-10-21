@@ -1,0 +1,62 @@
+<Card id="card">
+ <Row>
+   <Col>
+    <Container debug>
+      <Row>
+       <Col>Col auto</Col>
+      </Row>
+      <Row>
+        <Col sm={4} md={4} lg={6}>
+          sm-4 md-4 lg-6
+        </Col>
+        <Col sm={4} md={8} lg={6}>
+          sm-4 md-8 lg-6
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={2} md={3} lg={4}>
+          sm-2 md-3 lg-4
+        </Col>
+        <Col sm={2} md={3} lg={2}>
+          sm-2 md-3 lg-2
+        </Col>
+        <Col sm={2} md={3} lg={4}>
+          sm-2 md-3 lg-4
+        </Col>
+        <Col sm={2} md={3} lg={2}>
+          sm-2 md-3 lg-2
+        </Col>
+      </Row>
+    </Container>
+  </Col>
+ </Row>
+</Card>
+
+<Container>
+  <Row>
+    <Col>
+      <Card>El texto argumentativo tiene como objetivo principal dar sustento a la tesis formulada por el autor mediante la exposición coherente y lógica de justificaciones o razones, que tienen como propósito persuadir o convencer al lector sobre un punto de vista predeterminado.</Card>
+    </Col>
+  </Row>
+  <Row>
+    <Col sm={4} md={4} lg={6}>
+      <Card>Los textos argumentativos son aquellos donde el emisor tiene como intención comunicativa prioritaria, ofrecer la visión subjetiva del autor sobre un determinado tema. En tanto que argumentar es, por definición, un procedimiento persuasivo. Aparte de toda la información que a través de estos textos se pueda proporcionar (lo que implica que casi siempre haya también texto expositivo/exposición), existe implícitamente en ellos la intención de convencer al receptor acerca de lo que se está exponiendo varias cosas importantes.
+
+Un argumento es la expresión oral o escrita de un razonamiento o idea​ mediante el cual se intenta probar, refutar o incluso justificar una proposición o tesis.</Card>
+    </Col>
+    <Col sm={4} md={8} lg={6}>
+      <Card>Una amplia gama de textos, especialmente en los científicos, filosóficos, en el ensayo literario, en la producción política y judicial, en los textos periodísticos de opinión y en algunos mensajes publicitarios, pueden ser considerados textos argumentativos. En la lengua oral, además de aparecer con frecuencia en la conversación cotidiana (aunque con poca frecuencia), es la forma dominante en los debates, coloquios o mesas redondas.</Card>
+    </Col>
+  </Row>
+  <Row>
+    <Col sm={2} md={4} lg={4}>
+      <Card>Lorem ipsum dolor sit amet</Card>
+    </Col>
+    <Col sm={2} md={4} lg={4}>
+      <Card>Lorem ipsum dolor sit amet</Card>
+    </Col>
+    <Col sm={2} md={4} lg={4}>
+      <Card>Lorem ipsum dolor sit amet</Card>
+    </Col>
+  </Row>
+</Container>

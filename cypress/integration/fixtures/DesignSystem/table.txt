@@ -1,0 +1,64 @@
+<Table rowLg customGridTemplate="16px 1fr .5fr 1fr .3fr" id="Table">
+  <Table.Header id="Table_header">
+    <Table.HeaderCell>
+      <Checkbox marginBottom="none"/>
+    </Table.HeaderCell>
+    <Table.HeaderCell >
+      <Text.H6 >Column name</Text.H6>
+      <Icon type="SortDefault" color="purple_dark" marginLeft="xsm" />
+    </Table.HeaderCell>
+    <Table.HeaderCell>
+      <Text.H6 ellipsisOverflow>Column text</Text.H6>
+      <Icon type="SortDefault" color="purple_dark" marginLeft="xsm" />
+    </Table.HeaderCell>
+    <Table.HeaderCell>
+      <Text.H6>Column money</Text.H6>
+      <Icon type="SortDefault" color="purple_dark" marginLeft="xsm" />
+    </Table.HeaderCell>
+    <Table.HeaderCell>
+      <Text.H6 ellipsisOverflow>Column status</Text.H6>
+      <Icon type="SortDefault" color="purple_dark" marginLeft="xsm" />
+    </Table.HeaderCell>
+  </Table.Header>
+
+  <Table.Body  id="Table_body">
+    <Table.Row>
+      <Table.Cell id="Table_Cel_1">
+        <Checkbox marginBottom="none" id="1"/>
+      </Table.Cell>
+      <Table.Cell id="Table_Cel_2">
+          <Avatar size="lg" />
+          <div>
+            <span>Juana Laura Perez</span>
+            <Text.Caption>email@email.com</Text.Caption>
+          </div>
+      </Table.Cell>
+      <Table.Cell id="Table_Cel_3">Finanzas</Table.Cell>
+      <Table.Cell id="Table_Cel_4">$3,000.00</Table.Cell>
+      <Table.Cell id="Table_Cel_5">
+          <Icon type="StatusOk" size="lg" />
+      </Table.Cell>
+    </Table.Row>
+
+    <Table.Row>
+      <Table.Cell>
+        <Checkbox marginBottom="none" />
+      </Table.Cell>
+      <Table.Cell>
+        <CellWithMedia>
+          <Avatar size="md" />
+          <div>
+            <span>Carmen Garcia Romero</span>
+          </div>
+        </CellWithMedia>
+      </Table.Cell>
+      <Table.Cell>Recursos Humanos</Table.Cell>
+      <Table.Cell>$6,000.00</Table.Cell>
+      <Table.Cell>
+        <CellCentered>
+          <Icon type="StatusError" size="lg" />
+        </CellCentered>
+      </Table.Cell>
+    </Table.Row>
+  </Table.Body>
+</Table>
