@@ -1,1 +1,0 @@
-<Avatar gender="Girl" variant={5} size="xxl" overrideStyles={{ avatar: { backgroundColor: 'red' } }}/>

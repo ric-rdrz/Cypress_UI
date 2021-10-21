@@ -1,3 +1,0 @@
-<FlexWrapper>
-    <IconButton type="Edit"  overrideStyles={{ button: { backgroundColor: 'yellow'} }}/>
-</FlexWrapper>

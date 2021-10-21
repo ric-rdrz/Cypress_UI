@@ -1,3 +1,0 @@
-<Card overrideStyles={{ card: { color: 'red' } }}>
-  <Text.H1>H1 heading</Text.H1>
-</Card>

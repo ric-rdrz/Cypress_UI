@@ -1,8 +1,0 @@
-<FlexWrapper>
-  <Switch
-    size="lg"
-    label="Large label text"
-    name="switchTestLarge"
-    id="switchTestLarge"
-   overrideStyles={{ switch: { backgroundColor: 'red'}, icon: { backgroundColor: 'brown'}, text:{ color: 'blue'} }}/>
-</FlexWrapper>

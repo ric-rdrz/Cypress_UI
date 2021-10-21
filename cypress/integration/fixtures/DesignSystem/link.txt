@@ -1,7 +1,0 @@
-<FlexWrapper justify="space-around">
-  <Link isExternal={true} href="https://www.google.com/" id="link_1">ACCESO A LA INFORMACION</Link>
-  <Link isExternal={false} href="#" id="link_2">Si necesita ayuda haga clic aqui</Link>
-  <Link id="link_3">Favor de hacer clic aqui</Link>
-  <Link href="https://www.runahr.com/" id="link_4">Para mas informacion 1,2,3:</Link>
-  <Link href="https://www.youtube.com/" id="link_5">1</Link>
-</FlexWrapper>

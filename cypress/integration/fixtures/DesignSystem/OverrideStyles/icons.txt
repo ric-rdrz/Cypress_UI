@@ -1,2 +1,0 @@
-<Icon type="Address" size="lg" color="orange" overrideStyles={{ icon: { backgroundColor: 'red' } }} />
-<Icon type="Absence" size="xl" color="black" overrideStyles={{ icon: { backgroundColor: 'yellow'} }}/>
